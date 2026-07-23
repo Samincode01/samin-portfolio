@@ -48,24 +48,6 @@ export default function Contact() {
               ))}
             </div>
           </div>
-
-          <div>
-            <h3 className="mb-4 text-lg font-bold text-white sm:text-xl">
-              Find Me <AccentText>Online</AccentText>
-            </h3>
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
-              {contactData.socials.map((social) => (
-                <ContactCard
-                  key={social.id}
-                  label={social.label}
-                  value={social.value}
-                  href={social.href}
-                  icon={social.icon}
-                  external
-                />
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </Section>
