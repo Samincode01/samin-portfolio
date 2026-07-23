@@ -1,26 +1,103 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1f242d;
+  --foreground: #ffffff;
+  --accent: #00eeff;
+  --surface: #323946;
+  --section-px: 1rem;
+  --nav-height: 4.5rem;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --font-sans: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-height) + 0.75rem);
+  overflow-x: hidden;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+.section-shell {
+  width: 100%;
+  padding-inline: 1rem;
+  padding-block: 5rem;
+}
+
+@media (min-width: 640px) {
+  .section-shell {
+    padding-inline: 1.5rem;
+    padding-block: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-shell {
+    padding-inline: 2.5rem;
+    padding-block: 7rem;
+  }
+}
+
+.section-heading {
+  margin-bottom: 3.25rem;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+@media (min-width: 640px) {
+  .section-heading {
+    margin-bottom: 3.75rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-heading {
+    margin-bottom: 4.5rem;
+    font-size: 2.75rem;
+  }
+}
+
+.skill-progress {
+  transition: none;
+}
+
+.skill-progress::-webkit-progress-bar {
+  background-color: #2a303a;
+  border-radius: 9999px;
+}
+
+.skill-progress::-webkit-progress-value {
+  background-color: #00eeff;
+  border-radius: 9999px;
+  transition: width 1.1s ease-out;
+}
+
+.skill-progress::-moz-progress-bar {
+  background-color: #00eeff;
+  border-radius: 9999px;
+  transition: width 1.1s ease-out;
 }
