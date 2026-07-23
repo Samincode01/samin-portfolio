@@ -23,7 +23,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${project.name} | MD RIEAD MIA`,
+    title: `${project.name} | TARIF HASAN SAMIN`,
     description: project.description,
   };
 }

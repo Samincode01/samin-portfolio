@@ -1,6 +1,6 @@
 export const aboutProfile = {
   image: "/images/profile.png",
-  name: "MD RIEAD MIA",
+  name: "TARIF HASAN SAMIN",
   role: "Frontend Developer",
   education: "Bachelor of Science",
   meta: "April 18 - May 24",
@@ -22,7 +22,7 @@ export const aboutTabs = [
     label: "About Me",
     title: "About Me",
     content: [
-      "I am MD RIEAD MIA, a Frontend Developer dedicated to crafting elegant, high-performing user interfaces. I care deeply about visual polish, accessibility, and the small details that make digital products feel intentional.",
+      "I am TARIF HASAN SAMIN, a Frontend Developer dedicated to crafting elegant, high-performing user interfaces. I care deeply about visual polish, accessibility, and the small details that make digital products feel intentional.",
       "With a Bachelor of Science background and hands-on experience building responsive web applications, I combine design sensitivity with solid engineering practices. I translate Figma designs into production-ready interfaces using Next.js, React, and Tailwind CSS.",
       "I value clear communication, continuous learning, and collaborative problem-solving. Whether refining a component system or shipping a full landing experience, my goal is always the same: deliver interfaces that look refined, feel smooth, and work reliably across devices.",
     ],

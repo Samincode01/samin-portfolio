@@ -1,7 +1,7 @@
 import { socialsData } from "@/data/socials";
 
 export const heroData = {
-  name: "MD RIEAD MIA",
+  name: "TARIF HASAN SAMIN",
   designationPrefix: "And I'm a",
   designation: "Frontend Developer",
   introduction:

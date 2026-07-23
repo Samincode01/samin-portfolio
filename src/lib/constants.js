@@ -8,9 +8,9 @@ export const COLORS = {
 };
 
 export const SITE = {
-  name: "MD RIEAD MIA",
-  brand: "RIEAD",
-  title: "MD RIEAD MIA | Portfolio",
+  name: "TARIF HASAN SAMIN",
+  brand: "SAMIN",
+  title: "TARIF HASAN SAMIN | Portfolio",
   description: "Frontend Developer Portfolio",
   copyrightYear: 2024,
 };

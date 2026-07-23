@@ -5,7 +5,7 @@ export default function Logo() {
     <Link
       href="/#home"
       className="flex shrink-0 items-center gap-2 sm:gap-2.5"
-      aria-label="RIEAD home"
+      aria-label="SAMIN home"
     >
       <svg
         width="32"
@@ -23,7 +23,7 @@ export default function Logo() {
         <circle cx="28.5" cy="7.5" r="2.5" fill="#00eeff" />
       </svg>
       <span className="text-lg font-bold uppercase tracking-[0.12em] text-white sm:text-xl">
-        RIEAD
+        SAMIN
       </span>
     </Link>
   );
